@@ -1,0 +1,30 @@
+html {
+   background-image: linear-gradient(to left, rgba(247, 252, 255, 0), rgba(224, 226, 229, 0.73));
+}
+body {
+    background: #fff;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    font-family: "Courier New", Courier, monospace;
+}
+
+input {
+    background-color: white;
+    display: block;
+    border: none;
+    padding: 1em;
+    font-family: "Courier New", Courier, monospace;
+    
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+#submitBtn{
+    padding-left: 0;
+    font-size: 200%;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: 
+}
