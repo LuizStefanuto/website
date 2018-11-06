@@ -7,17 +7,32 @@
 </head>
 <body>
     
-    <form class="login-form">
+    <form>
        <input type="submit" name="submit" value="t h e s i s" id="submitBtn">
        
-        <input type="text" name="ID" placeholder="mail">
+        <input type="text" name="ID" placeholder="mail" class="login">
     
-        <input type="password" name="Password" placeholder="Pass">
+        <input type="password" name="Password" placeholder="Pass" class="login" id="pass">
     </form>
-    <!--<p>mail</p>
-    <p>Pass </p>--> 
-    <h2>J o i n</h2>
-    <p>+</p> 
     
+    <!--<h2>J o i n</h2>-->
+    <!-- dropright container -->
+    <div class="drop-right">
+
+        <!-- trigger button -->
+        <button id="join">J o i n</button>
+
+        <!-- dropdright menu -->
+       <div> <input type="text" name="ID" placeholder="e-mail" class="e-mail"></div>
+    </div>
+    <div>
+        <div class="dropdown">
+            <button class="dropbtn">+</button>
+                <div class="dropdown-content">
+                <a href="#">know more</a><br>
+                <a href="#">Forgot Pass</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
